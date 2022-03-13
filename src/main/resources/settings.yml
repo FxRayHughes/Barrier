@@ -1,0 +1,12 @@
+ClaimTool: "APPLE"
+Info:
+  Join:
+    main: "欢迎来到 [name]"
+    sub: "欢迎"
+    action:
+      - tell *"测试"
+  Leave:
+    main: "离开了 [name]"
+    sub: "再见"
+    action:
+      - tell *"测试"
