@@ -264,3 +264,7 @@ fun List<String>.eval(player: Player) {
         e.printKetherErrorMessage()
     }
 }
+
+infix fun String.papi(player: Player): String {
+    return PlaceholderAPI.setPlaceholders(player, this);
+}

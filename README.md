@@ -1,19 +1,10 @@
-# Building
+# Barrier
 
-* [Gradle](https://gradle.org/) - Dependency Management
+指令: /barrier 圈地工具 默认为苹果
 
-The GradleWrapper in included in this project.
+papi:
 
-**Windows:**
-
-```
-gradlew.bat clean build
-```
-
-**macOS/Linux:**
-
-```
-./gradlew clean build
-```
-
-Build artifacts should be found in `./build/libs` folder.
+``
+%barrier_poly_野外%
+``
+当前地区名 不在地区内返回所填默认值
